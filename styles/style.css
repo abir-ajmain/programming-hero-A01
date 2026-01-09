@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: white;
+}
 /*shared style starts*/
 .font-inter{
   font-family: "Inter", sans-serif;
@@ -203,48 +206,48 @@ nav .nav-links ul{
 }
     /*note section ends here*/
     
-    /*Solution section ends here*/
-#solution-container{
-    
-    max-width: 1600px;
-    height: 840px;
-    margin: 0 auto;
-    padding: 160px 120px 120px 120px;
-}
-#solution-container .solution-content{
-    display: flex;
-    gap: 60px;
-}
-.solution-content .solution-image img{
-    max-width: 600px;
-    height: 600px;
-    border-radius: 12px;
-}
-.solution-text{
-    max-width: 700px;
-}
-.solution-text .description{
-    margin-bottom: 40px;
-}
-.solution-text h5{
-    color: #469165;
-    font-size: 16px;
-    line-height: 20px;
-}
-.solution-text h3{
-    color: #001931;
-    font-size: 48px;
-    margin: 16px 0;
-}
-.solution-text p{
-    color: #627382;
-    font-size: 16px;
-    line-height: 20px;
-}
-.solution-text .solutions ul li{
-    list-style-type: none;
-    font-size: 16px;
-    font-weight: 500;
+    /*Solution section starts here*/
+    #solution-container{
+        
+        max-width: 1600px;
+        height: 840px;
+        margin: 0 auto;
+        padding: 160px 120px 120px 120px;
+    }
+    #solution-container .solution-content{
+        display: flex;
+        gap: 60px;
+    }
+    .solution-content .solution-image img{
+        max-width: 600px;
+        height: 600px;
+        border-radius: 12px;
+    }
+    .solution-text{
+        max-width: 700px;
+    }
+    .solution-text .description{
+        margin-bottom: 40px;
+    }
+    .solution-text h5{
+        color: #469165;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .solution-text h3{
+        color: #001931;
+        font-size: 48px;
+        margin: 16px 0;
+    }
+    .solution-text p{
+        color: #627382;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .solution-text .solutions ul li{
+        list-style-type: none;
+        font-size: 16px;
+        font-weight: 500;
     line-height: 20px;
     color: #001931;
     margin-bottom: 16px;
@@ -257,5 +260,57 @@ nav .nav-links ul{
     width: 20px;
     height: 20px;
 }
+    /*Solution section ends here*/
+    /*Think section starts here*/
+
+#think-container{
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    max-width: 1600px;
+    
+    margin: 0 auto 120px;
+    padding: 120px 120px 120px 120px;
+    text-align: center;
+    padding: 40px 80px;  
+}
+.think-content .think-header h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+    
+    margin: 80px 40px 16px 40px;
+}
+.think header p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-top: 16px;
+    
+    
+}
+.think-content .think-bottom button{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 16.5px 0;
+    width: 194px;
+    height: 52px;
+    margin: 24px auto 16px auto;
+}
+.think-content .bottom-text{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 80px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bottom-text span {
+    font-size: 8px;
+}
+    /*Think section ends here*/
 
 /*main section ends*/
