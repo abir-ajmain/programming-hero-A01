@@ -62,18 +62,17 @@ nav .nav-links ul{
     
 } */
     /*nav section ends*/
+
     /*hero-banner section stars*/
 #hero-container{
     max-width: 1600px;
     height: 674px;
     margin: 0 auto;
+    padding: 115.5px 120px 179.5px;
+    text-align: center;
     background-image: url('../assests/hero-bg.png');
     /* background-repeat: no-repeat; */
     /* background-size: cover; */
-}
-#hero-container{
-    padding: 115.5px 120px 179.5px;
-    text-align: center;
 }
 .banner-content .early-access{
     max-width: 229px;
@@ -133,6 +132,76 @@ nav .nav-links ul{
     cursor: pointer;
 }
     /*hero-banner section ends*/
-/*main section starts*/
 
+/*main section starts*/
+    /*note section starts here*/
+#note-container{
+    padding-top: 80px;
+    max-width: 1600px;
+    height: 448px;
+    margin: 0 auto;
+    
+}
+#note-container .note-header{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1360px;
+    height: 152px;
+
+}
+#note-container .note-header h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #001931;
+}
+#note-container .note-header p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+.card-container{
+    margin: 0 auto;
+
+    max-width: 1360px;
+    height: 300px;
+    display: flex;
+    gap: 24px;
+    
+}
+.card-info{
+    border-radius: 8px;
+    max-width: 322px;
+    max-height: 300px;
+    padding-top: 69.5px;
+    box-shadow: 0 0 8px #62738265;
+    background-color: #FFFFFF;
+}
+.card-info .card-image{
+    margin: 0 auto;
+    background-color: #F95555;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-info .card-content h3{
+    text-align: center;
+    color: #001931;
+    font-size: 24px;
+    font-weight: 600;
+    margin:16px 24px 16px 24px;
+}
+.card-info .card-content p{
+    margin: 0 24px 69.5px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    text-align: center;
+}
+
+    /*note section ends here*/
 /*main section ends*/
