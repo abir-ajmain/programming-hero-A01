@@ -139,8 +139,7 @@ nav .nav-links ul{
     padding-top: 80px;
     max-width: 1600px;
     height: 448px;
-    margin: 0 auto;
-    
+    margin: 0 auto;    
 }
 #note-container .note-header{
     margin: 0 auto;
@@ -202,6 +201,61 @@ nav .nav-links ul{
     color: #627382;
     text-align: center;
 }
-
     /*note section ends here*/
+    
+    /*Solution section ends here*/
+#solution-container{
+    
+    max-width: 1600px;
+    height: 840px;
+    margin: 0 auto;
+    padding: 160px 120px 120px 120px;
+}
+#solution-container .solution-content{
+    display: flex;
+    gap: 60px;
+}
+.solution-content .solution-image img{
+    max-width: 600px;
+    height: 600px;
+    border-radius: 12px;
+}
+.solution-text{
+    max-width: 700px;
+}
+.solution-text .description{
+    margin-bottom: 40px;
+}
+.solution-text h5{
+    color: #469165;
+    font-size: 16px;
+    line-height: 20px;
+}
+.solution-text h3{
+    color: #001931;
+    font-size: 48px;
+    margin: 16px 0;
+}
+.solution-text p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+}
+.solution-text .solutions ul li{
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
+    margin-bottom: 16px;
+    
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.solutions li span img{
+    width: 20px;
+    height: 20px;
+}
+
 /*main section ends*/
